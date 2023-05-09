@@ -2,7 +2,6 @@ import React from 'react'
 import { BsSearch } from 'react-icons/bs'
 import { useState, KeyboardEvent } from 'react'
 import classes from './Search.module.css'
-import { keyboardKey } from '@testing-library/user-event'
 
 type SearchProps = {
     loadUser: (userName: string) => Promise<void>
@@ -14,7 +13,7 @@ const Search = ({ loadUser }: SearchProps) => {
 
     const handleKeyDown = (e: KeyboardEvent) => {
         if(e.key === "Enter"){
-
+            loadUser(userName)
         }
     }
 
