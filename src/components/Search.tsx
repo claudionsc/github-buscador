@@ -20,7 +20,7 @@ const Search = ({ loadUser }: SearchProps) => {
     return (
         <div className={classes.search}>
             <h2>Busque por um usuário:</h2>
-            <p>Conheça seus melhroes repositórios</p>
+            <p>Conheça suas informações e seus repositórios</p>
             <div className={classes.search_container}>
                 <input
                     type="text"
@@ -32,6 +32,7 @@ const Search = ({ loadUser }: SearchProps) => {
                     <BsSearch />
                 </button>
             </div>
+            <p className={classes.by}>By: Claudio Nascimento</p>
         </div>
     )
 }

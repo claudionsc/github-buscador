@@ -1,5 +1,4 @@
 .search {
-    background-color: #2b3566;
     padding: 2rem;
     border-radius: 1rem;
     display: flex;
@@ -8,6 +7,11 @@
     align-items: center;
     gap: 1rem;
     margin-bottom: 1.5rem;
+    background: rgba(43, 53, 102, 0.46);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .search p {
@@ -19,8 +23,8 @@
     gap: .5rem;
 }
 
-.search_container,
-.search_container button{
+.search_container button,
+.search_container input{
     padding: .6rem;
     border-radius: 3px;
     border: none;
@@ -30,4 +34,9 @@
 .search_container button{
     background-color: #0e1129;
     cursor: pointer;
+}
+
+.by {
+    font-size: .7rem;
+    opacity: 0.5;
 }

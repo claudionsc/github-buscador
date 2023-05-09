@@ -8,6 +8,7 @@
 
 body {
   background-color: #0e1129;
+  background-image: url('./assests/img/hero-bg.webp');
   padding: 2rem;
 }
 
@@ -17,7 +18,4 @@ p {
 
 a {
   text-decoration: none;
-}
-input {
-  color: black;
 }

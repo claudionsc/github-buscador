@@ -12,6 +12,8 @@ const User = ({
     location
 }: UserProps) => {
     return (
+
+        
         <div className={classes.user}>
             <img src={avatar_url} alt={login} />
             <h2>{login}</h2>
@@ -33,7 +35,7 @@ const User = ({
                 </div>
             </div>
 
-            <Link to={`/repos/${login}`}>Ver melhores projetos</Link>
+            <a className={classes.projects} href={`https://github.com/${login}?tab=repositories`}>Ver perfil</ a>
 
         </div>
     )
