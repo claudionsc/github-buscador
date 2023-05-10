@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/github-buscador/static/css/main.c87eef0a.css",
+    "main.js": "/github-buscador/static/js/main.45893cc8.js",
+    "static/media/hero-bg.webp": "/github-buscador/static/media/hero-bg.9172779c846bdfbbff6e.webp",
+    "index.html": "/github-buscador/index.html",
+    "main.c87eef0a.css.map": "/github-buscador/static/css/main.c87eef0a.css.map",
+    "main.45893cc8.js.map": "/github-buscador/static/js/main.45893cc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c87eef0a.css",
+    "static/js/main.45893cc8.js"
+  ]
+}
