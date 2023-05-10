@@ -14,3 +14,5 @@ Basta digitar o nome de um usuário e você verá informações como localizaç�
 * Fetch Api
 * Hooks
 * Gerenciamento de estados
+
+[Ver projeto](https://claudionsc.github.io/github-buscador/)
