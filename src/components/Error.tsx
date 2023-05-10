@@ -2,7 +2,7 @@
 const Error = () => {
   return (
     <div>
-        <p>Usuário não encontrado!</p>
+        <p style={{color: "#8b1111", fontWeight: "bold"}}>Usuário não encontrado!</p>
     </div>
   )
 }
